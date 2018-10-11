@@ -1,0 +1,166 @@
+/*we will put all the animations in this file like border animation and much more */
+/*home page animation starts here*/
+    /*creating border class animation nav starts here */
+
+    /*only this class will add redline bottom of the nav */
+
+    .border-animation::after{
+        content: "";
+        width: 0;
+        height: 3px;
+        background-color: #EF233C;
+        position: relative;
+        display: block;
+        top: 3px;
+        transition: all 400ms ease;
+
+    }
+
+    /*creating hover animation */
+    .border-animation:hover::after{
+        width: 100%;
+
+    }
+    /*creating border class nav animation ends here */
+
+
+
+    /*creating home button  arrow  animation starts here */
+    /*btn-sub1 starts here*/
+
+        .btn-sub1:hover{
+            background-color: transparent; /*btn-sub1 in main css transition property will aid us show slow motionly this effect*/
+            padding: 20px;
+
+
+        }
+
+        .fa-angle-right{
+            -webkit-transform: rotate(0deg);
+            transition: rotate(0deg);
+            transition: all 500ms ease;
+        }
+        /*btn-sub1 ends here*/
+
+        /*btn-sub2 starts here*/
+        .btn-sub2:hover{
+            border: 1px solid #EDF2F4;
+            background-color: #352C31; /*btn-sub2      in main css transition property will aid us show slow motionly this effect*/
+            padding: 20px;
+
+
+        }
+
+        .fa-angle-double-right{
+            -webkit-transform: rotate(0deg);
+            transition: rotate(0deg);
+            transition: all 500ms ease;
+        }
+          /*btn-sub2 ends ends here*/
+    /*creating home button  arrow  animation ends here */
+/*home page animation ends here*/
+
+
+/*features page animation starts here*/
+        /*=*=*=*=*/
+/*features page animation ends here*/
+
+
+
+/*About us page animation starts here*/
+          /*=*=*=*=*/
+/*About us page animation ends here*/
+
+/*pricing page animation starts here*/
+        /* content 3 ayyagen ahana */
+
+        .content-3 .basic a:hover, .enterprise  a:hover{
+            background-color: #EF233C;
+            color: white;
+        }
+        @media only screen and (min-width:1024px){
+         .basic .basic-border, .enterprise .basic-border{
+             position: absolute;
+             background-color: #EF233C;
+             transition: all 800ms ease;
+         }
+
+         .content-3 .basic .basic-border:nth-child(1), .enterprise .basic-border:nth-child(1){
+             top:0% ; left: 0%;
+             width: 30px;
+             height: 0.9px;
+         }
+         .content-3 .basic .basic-border:nth-child(2), .enterprise .basic-border:nth-child(2){
+             top:0% ; left: 0%;
+             width: 2px;
+             height: 30px;
+         }
+         .content-3 .basic .basic-border:nth-child(3), .enterprise .basic-border:nth-child(3){
+             bottom: 0% ;right:0%;
+             width: 0.9px;
+             height: 30px;
+         }
+         .content-3 .basic .basic-border:nth-child(4), .enterprise .basic-border:nth-child(4){
+             bottom: 0% ;right:0%;
+             width: 30px;
+             height: 2px;
+         }
+         .enterprise .basic-border:nth-child(2){
+             widows: 0.9px;
+         }
+         .pro .pro-span{
+             position: absolute;
+             background-color: #EF233C;
+             transition: all 800ms ease;
+         }
+         .pro .pro-span:nth-child(1){
+             bottom: 40%;right: 0%;
+             width: 2px;
+             height: 130px;
+         }
+         .pro .pro-span:nth-child(2){
+             bottom: 40%;left: 0%;
+             width: 2px;
+             height: 130px;
+         }
+        }
+
+     /*Pricing page animation ends here*/
+
+
+     /*tab section animation starts here*/
+            /*=*=*=*=*/
+     /*tab section animation ends here*/
+
+
+
+     /* Our Team hover animation ends here*/
+
+        .content-5 .social-icon span:hover{
+            background-color: #EF233C;
+            color: #EDF2F4;
+        }
+
+     /*Our Team  hover animation ends here*/
+
+
+     /*footer  hover animation starts here*/
+     footer span:hover{
+        background-color: white;
+        color: #3F494C;
+    }
+
+    .top a:hover{
+        color: white;
+    }
+
+     /*footer   hover animation ends here*/
+
+     /*sticky*/
+     .sticky{
+         background-color: rgba(19, 44, 44, 0.897);
+         padding: 0% 4%;
+         transition: all 400ms ease;
+     }
+
+    
